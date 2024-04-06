@@ -74,6 +74,12 @@ class AboutPage extends StatelessWidget {
                 style: TextStyle(fontSize: 18),
               ),
               const SizedBox(height: 20),
+              const Text(
+                'La democracia es el gobierno del pueblo, por el pueblo, para el pueblo. (Abraham Lincoln)',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 14),
+              ),
+              const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pop(
